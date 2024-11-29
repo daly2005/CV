@@ -1,5 +1,5 @@
 body{
-    background-image: url('img/background2.png');
+    background-image: url('img/fondo.jpeg');
     background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -33,14 +33,17 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(49, 53, 94);
     padding: 10px;
-    padding-left: 20px;
-    border-radius: 15px;
+    padding-left: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 5px;
 }
 .MyDescription{
     font-size: 16px;
     margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 5px;
+    margin-left: 30px;
+    margin-right: 35px;
 }
 
 .profilee{
@@ -54,7 +57,7 @@ body{
 }
 
 .justme{
-    background-color: rgb(49, 53, 94);
+    background-color: rgb(255, 78, 178);
     border-top-left-radius: 30px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -81,7 +84,7 @@ body{
 
 
 #aside_left{
-    background-color: rgb(157, 178, 213, 0.7);
+    background-color: rgba(255, 155, 227, 0.7);
     border-radius: 10px;
     display: block;
     justify-content: left;
@@ -92,7 +95,7 @@ body{
     transform: translateX(1%);
     padding: 20px;
     width: 300px;
-    height: 478px;
+    height: 857px;
 }
 #aside_left h3{
     font-size: 25px;
@@ -102,6 +105,7 @@ body{
 }
 #aside_left p{
     margin-left: 35px;
+    margin-top: 32px;
 }
 #language{
     background-color: rgb(49, 53, 94);
@@ -110,14 +114,38 @@ body{
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+#language .language{
+    margin-top: 40px;
 }
 #hobby{
     background-color: rgb(49, 53, 94);
     padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 30px;
+}
+#hobby .hobby1{
+    margin-left: 130px;
+    margin-top: -45px;
+}
+#hobby .hobby2{
+    margin-top: -45px;
+}
+.icon{
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.icon1{
+    height: 60px;
+    margin-left: 160px;
+    margin-top: 45px;
 }
 
 #article{
@@ -167,7 +195,10 @@ body{
 #footer{
     background-color: rgb(157, 178, 213, 0.7);
     border-radius: 10px;
-    margin-top: 20px;
     padding: 20px;
-    margin-top: 96px;
+    margin-top: 375px;
+    margin-left: 3px;
+}
+hr{
+    border-color: rgb(255, 0, 123);
 }
