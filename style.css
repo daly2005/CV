@@ -81,7 +81,7 @@ body{
     position: absolute;
     transform: translateX(1%);
     width: 300px;
-    height: 873.5px;
+    height: 976.5px;
 }
 #aside_left h3{
     font-size: 25px;
@@ -102,6 +102,7 @@ body{
     border-bottom-right-radius: 5px;
     padding-top: 20px;
     padding-bottom: 27px;
+    height: 377px;
 }
 #language .language{
     margin-top: 40px;
@@ -188,23 +189,49 @@ body{
     margin-top: 10px;
     margin-left: 3px;
 }
+#footer1{
+    display: flex;
+    justify-content: center;
+}
+#footer1 h4{
+    margin-right: 350px;
+}
+#footer1 .social{
+    margin-left: -40px;
+}
+#footer2{
+    display: flex;
+    justify-content: center;
+}
+#footer2 p{
+    margin-right: 100px;
+}
+#footer2 .number{
+    margin-left: -140px;
+}
+.social-media{
+    margin-left: 300px;
+}
+
 hr{
     border-color: rgb(255, 0, 123);
 }
 #circles{
     display: flex;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .circle {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: conic-gradient(rgb(255, 0, 123), rgb(221, 221, 221) 75% 100%);
+    background: conic-gradient(rgb(255, 0, 123), rgb(255, 255, 255) 60% 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-right: 70px;
 }
 .circle-inner {
     width: 140px;
@@ -224,11 +251,12 @@ hr{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: conic-gradient(rgb(255, 0, 123), rgb(255, 255, 255) 75% 100%);
+    background: conic-gradient(rgb(255, 0, 123), rgb(255, 255, 255) 65% 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-right: 70px;
 }
 .circle-inner-2 {
     width: 140px;
@@ -248,7 +276,7 @@ hr{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: conic-gradient(rgb(255, 0, 123), rgb(221, 221, 221) 75% 100%);
+    background: conic-gradient(rgb(255, 0, 123), rgb(255, 255, 255) 30% 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -266,4 +294,20 @@ hr{
 .circle-percentage-3 {
     font-size: 20px;
     font-weight: bold;
+}
+
+#skills-text{
+    display: flex;
+    justify-content: center;
+}
+.html {
+    margin-right: 200px;
+    margin-left: 20px;
+}
+.css {
+    margin-right: 200px;
+    margin-left: 10px;
+}
+.photoshop {
+    margin-left: -15px;
 }
