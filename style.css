@@ -62,8 +62,8 @@ body{
     padding-top: 22px;
     padding-bottom: 22px;
     position: absolute; 
-    right: 3%;
-    top: 26.6%;
+    right: -2%;
+    top: 3%;
     transform: translateX(-66%);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 4px;
