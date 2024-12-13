@@ -204,13 +204,17 @@ body{
     justify-content: center;
 }
 #footer2 p{
-    margin-right: 100px;
+    margin-right: 140px;
 }
 #footer2 .number{
     margin-left: -140px;
 }
 .social-media{
-    margin-left: 300px;
+    margin-left: 80px;
+}
+.icons {
+    height: 35px;
+    padding-right: 30px;
 }
 
 hr{
